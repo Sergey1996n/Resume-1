@@ -1,0 +1,301 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    position: relative;
+    width: 1440px;
+    height: 1507px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.Rectangle_1{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #F5F5F5;
+}
+
+.button{
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    right: 2%;
+    top: 5%;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.133984px;
+}
+
+.button rect{
+    fill: #3666F7;
+}
+
+.button path{
+    fill: #FFFFFF
+}
+
+.button:hover rect{
+    fill: #0940E7;
+}
+
+.change{
+	margin: 70px;
+    display: inline-table;
+    height: 1060px;
+}
+
+.Rectangle_2{
+    position: relative;
+    width: 900px;
+    height: 1200px;
+    left: 270px;
+    top: 126px;
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.Rectangle_2 p{
+    margin: 0;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border: 1px solid #E2E2E2;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.header{
+    display: flex;
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    width: 100%;
+}
+
+.names{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.name{
+    font-size: 28px;
+    line-height: 34px;
+    color: #252525;
+}
+
+.post{
+    font-size: 24px;
+    line-height: 29px;
+    color: #555555;
+}
+
+.email{
+    font-size: 16px;
+    line-height: 32px;
+    text-align: right;
+    color: #AAAAAA;
+}
+
+.preview{
+    width: 740px;
+    margin-top: 40px;
+    font-size: 32px;
+    line-height: 40px;
+    color: #555555;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 48px;
+}
+
+.content1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.content1 p, h3{
+    margin-bottom: 16px;
+}
+
+.ed{
+    width: 455px;
+}
+
+h3{
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 0px;
+}
+
+.ed h3{
+    color: #A066F8;
+}
+
+.university{
+    line-height: 24px;
+    color: #252525;
+}
+
+.coursework{
+    line-height: 22px;
+    color: #555;
+}
+
+.date{
+    font-size: 14px;
+    line-height: 17px;
+    color: #CCCCCC;
+}
+
+.skills{
+    line-height: 30px;
+    width: 213px;
+    color: #555555;
+}
+
+.skills h3{
+    color: #EE5035;
+}
+
+.language{
+    display:flex;
+    flex-direction: column;
+}
+
+.general_lang{
+    display:flex;
+    justify-content: space-between;
+}
+
+.general_lang p{
+    margin-bottom: 2px;
+}
+
+.content2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.int_exp{
+    width: 455px;
+    margin-bottom: 40px;
+}
+
+.int_exp h3{
+    color: #32CD88;
+}
+
+.int_exp p{
+    color: #555;
+    line-height: 22px;
+}
+
+
+.languages h3{
+    color: #38BEF8;
+}
+
+.languages{
+    line-height: 30px;
+    width: 213px;
+    color: #555555;
+}
+
+.social-icons {
+    display: table-row;
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+rect{
+    fill:white;
+}
+
+path{
+    fill: #AAAAAA;
+}
+
+svg:hover path{
+    fill: white;
+}
+
+.github:hover rect{
+    fill:black;
+}
+
+.shape:hover rect{
+    fill:#E6528A;
+}
+
+.twitter:hover rect{
+    fill:#33A4EC;
+}
